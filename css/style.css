@@ -2,9 +2,7 @@
 header{
     padding-top: 5px;
     padding-bottom: 5px;
-    position: fixed;
     width: 100%;
-    margin-top: -10px;
 }
 
 .container {
@@ -24,4 +22,28 @@ header{
 .logo{
     width: 200px;
     height: 200px;
+}
+
+.products{
+    padding-top: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.carts{
+    max-width: 350px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    padding-bottom: 34px;
+    margin-bottom: 40px;
+}
+
+.carts img{
+    width: 100%;
+}
+.carts p{
+    font-family: system-ui;
+    font-weight: 500;
+    padding: 0 20px;
+    margin-bottom: 24px;
 }
