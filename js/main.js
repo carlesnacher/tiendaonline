@@ -1,7 +1,10 @@
+// Variables
 
 let totalCarro = document.getElementById("totalCarro");
 let totalPrecio = 0;
 totalCarro.innerHTML = `${totalPrecio} €`;
+
+//Declaramos los productos muebles
 
 let objetos = [
     {
@@ -30,6 +33,8 @@ let objetos = [
     }
 ];
 
+//Arrastrar los items
+
 const drag = (ev) => {
     ev.dataTransfer.setData("text", ev.target.id);
 
@@ -51,6 +56,8 @@ const drop = (ev) => {
 
     totalCarro.innerHTML = `${totalPrecio} €`;
 };
+
+// Llamamos a la funcion reset carrito compra 0
 
 var reset = function(){
     a = '0 €';
