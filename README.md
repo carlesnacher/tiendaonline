@@ -7,7 +7,7 @@ Este es el proyecto final del bootcamp "Aprende a programar desde cero", se basa
 
 En esta tarea se nos pide que incorporemos el Drag & Drop, que consiste en arrastrar y soltar la imagen del producto al carrito de compra. Esto sumará el valor del producto al total de la compra, que se mostrará en todo momento al usuario.
 
-La temática que he elegido para este proyecto es una tienda de muebles.
+La temática que he elegido para este proyecto es una tienda de muebles, con el nombre   "Moblepop".
 
 ## Tecnologías
 
@@ -35,5 +35,10 @@ Si queremos vaciar el carrito de compra, simplemente tendremos que hacer click e
 
 ## Contacto
 
-- Email: carlesnacher@gmail.com
-- [Github](https://github.com/carlesnacher)
+* ![Email]: carlesnacher@gmail.com
+* ![Github](https://github.com/carlesnacher)
+
+<!--  -->
+
+[Github]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+[Email]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
