@@ -28,6 +28,7 @@ La temática que he elegido para este proyecto es una tienda de muebles, con el 
 
 * ![Javascript]
 <br>
+
 * ![css]
 <br>
 
