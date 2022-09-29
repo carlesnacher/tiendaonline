@@ -34,14 +34,15 @@ La temática que he elegido para este proyecto es una tienda de muebles, con el 
 * ![Html5]
 <br>
 <br>
+
 ## Uso de la aplicación ⚙️
 <br>
 
-La tienda tiene una lista de items, en este caso muebles, donde podremos **arrastrar** la imagen hacia la imagen carrito, que se encuentra en la parte superior.
+La tienda tiene una lista de items, en este caso muebles, donde podremos **arrastrar** la imagen hacia la imagen **carrito**, que se encuentra en la parte **superior**.
 
 Cada vez que coloquemos un item en el carrito, nos irá sumando el precio asignado a cada item.
 
-Si queremos **vaciar** el carrito de compra, simplemente tendremos que hacer click en el botón "Vaciar".
+Si queremos **vaciar** el carrito de compra, simplemente tendremos que hacer **click** en el **botón** "Vaciar".
 <br>
 <br>
 
