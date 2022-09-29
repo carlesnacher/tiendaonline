@@ -9,59 +9,55 @@
 </head>
 <body>
     <header>
-        <div class="header-section container">
-            <img class="logo" src="./img/logo.jpg" alt="">
+        <div class="header-center"><div class="logo">
+            <h1>MoblePop</h1> <!-- <img class="logo" src="./img/logo.jpg" alt=""> -->
         </div>
+        <div class="carro" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="actualCart">
+                    <img src="/img/shopping-cart-outline-svgrepo-com.svg" alt="carro"> 
+                </div>
+                <div id="totalCarro" class="totalPrecio"></div>
+                <div class="contenedor-vaciar-carro"> 
+                    <button onclick="reset()" class="boton" id="vaciar-carrito">
+                        Vaciar
+                    </button>
+                </div>
+        </div></div>
     </header>
     <section class="container">
         <div class="products">
-            <div class="carts">
-                <div>
-                    <img src="./img/aparador.jpeg" alt="">
+            <div class="muebles">
+                    <img src="./img/aparador.jpeg" alt="aparador" id="aparador" class="imagenDisplay" draggable="true" ondragstart="drag(event)">
                     <p><span>199</span>€</p>
-                </div>
                 <p class="title">Aparador en madera con 2 estantes Ralik</p>
             </div>
-            <div class="carts">
-                <div>
-                    <img src="./img/armario.jpeg" alt="">
+            <div class="muebles">
+                    <img src="./img/armario.jpeg" alt="" id="armario" class="imagenDisplay" draggable="true" ondragstart="drag(event)">
                     <p><span>189</span>€</p>
-                </div>
                 <p class="title"> Armario en madera Garrik</p>
             </div>
-            <div class="carts">
-                <div>
-                    <img src="./img/lampara.jpeg" alt="">
+            <div class="muebles">     
+                    <img src="./img/lampara.jpeg" alt="" id="lampara" class="imagenDisplay" draggable="true" ondragstart="drag(event)">
                     <p><span>59</span>€</p>
-                </div>
                 <p class="title"> Lámpara de techo en metal Mundi</p>
             </div>
-            <div class="carts">
-                <div>
-                    <img src="./img/libreria.jpeg" alt="">
-                    <p><span>35</span>€</p>
-                </div>
+            <div class="muebles">              
+                    <img src="./img/libreria.jpeg" alt="" id="libreria" class="imagenDisplay" draggable="true" ondragstart="drag(event)">
+                    <p><span>35</span>€</p>             
                 <p class="title"> Librería Thura</p>
             </div>
-            <div class="carts">
-                <div>
-                    <img src="./img/mesita.jpeg" alt="">
-                    <p><span>82</span>€</p>
-                </div>
+            <div class="muebles">              
+                    <img src="./img/mesita.jpeg" alt="" id="mesita" class="imagenDisplay" draggable="true" ondragstart="drag(event)">
+                    <p><span>82</span>€</p>                
                 <p class="title"> Mesita de noche en madera de Fresno</p>
             </div>
-            <div class="carts">
-                <div>
-                    <img src="./img/recibidor.jpeg" alt="">
-                    <p><span>125</span>€</p>
-                </div>
+            <div class="muebles">               
+                    <img src="./img/recibidor.jpeg" alt="" id="recibidor" class="imagenDisplay" draggable="true" ondragstart="drag(event)">
+                    <p><span>125</span>€</p>             
                 <p class="title"> Recibidor en madera de Fresno</p>
             </div>
         </div>
     </section>
-    <footer>
-    </footer>
-
-    
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,49 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
 
 header{
+    position:fixed;
+    height: 120px;
+    /*top:20px;
+    left: 20px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 5px;*/
     width: 100%;
+    margin: auto;
+    background: #020202;
+}
+
+.header-center {
+    padding-top: 20px;
+
 }
 
 .container {
+    display:flex;
+    margin: auto;
+    padding-top: 140px;
+    align-items: center;
     max-width: 1200px;
     text-align: center;
-    margin: auto;
-}
 
-.header-section{
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    align-items: center;
-    position: relative;
 }
 
 .logo{
-    width: 200px;
-    height: 200px;
+    padding: 0 20px 0 20px;
+    width:  auto;
+    float: left;
+    color: #f1f1f1;
 }
+
 
 .products{
-    padding-top: 1px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.carts{
-    max-width: 350px;
+.muebles{
+    max-width: 300px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
-    padding-bottom: 34px;
-    margin-bottom: 40px;
+    padding: 20px 0 0 0;
+    margin: 20px;
 }
 
-.carts img{
-    width: 100%;
+.muebles img{
+    width: 80%;
 }
-.carts p{
+.muebles p{
     font-family: system-ui;
     font-weight: 500;
     padding: 0 20px;
     margin-bottom: 24px;
 }
+
+.carro{
+    float: right;
+    color: white;
+    padding: 10px 20px 0 20px;
+}
+
+.actualCart {
+    width: 40px;
+    float: right;
+    background-color: #f1f1f1;
+    border-radius: 100%;
+    padding: 10px 10px 7px 12px;
+}
+
+.actualCart img { 
+    width: 40px;
+}
+
+.totalPrecio{
+    font-size: 20px;
+    padding: 5px 50px 5px 25px;
+    margin: 0 50px 0 50px;
+}
+
+.contenedor-vaciar-carro {
+    margin: 0 50px 0 50px;
+    padding: 5px 80px 0 0;
+}
+.boton {}
