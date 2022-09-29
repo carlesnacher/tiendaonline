@@ -22,6 +22,7 @@ En esta tarea se nos pide que incorporemos el **Drag & Drop**, que consiste en a
 La temática que he elegido para este proyecto es una tienda de muebles, con el nombre "Moblepop".
 <br>
 <br>
+
 ## Tecnologías 🚀
 <br>
 
@@ -49,8 +50,6 @@ Si queremos **vaciar** el carrito de compra, simplemente tendremos que hacer cli
 <br>
 
 - Agregar un badge con la cantidad de productos que tengo en el shopping cart.
-<br>
-
 - Mostrar una lista con todos los productos que hay en el carrito.
 - Aumentar y disminuir unidades de los productos que se muestran en el carrito.
 <br>
