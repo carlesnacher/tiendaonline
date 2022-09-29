@@ -35,8 +35,8 @@ Si queremos vaciar el carrito de compra, simplemente tendremos que hacer click e
 
 ## Contacto
 
-* ![Email]: carlesnacher@gmail.com
-* ![Github](https://github.com/carlesnacher)
+* ![Email]   carlesnacher@gmail.com
+* ![Github]  https://github.com/carlesnacher
 
 <!--  -->
 
