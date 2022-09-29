@@ -1,13 +1,14 @@
 
+![image](img/captura.jpeg)
 
 ## Sobre el proyecto Dynamic-Showcase
 
 
 Este es el proyecto final del bootcamp "Aprende a programar desde cero", se basa en recrear un mostrador de alimentos dinámico con carrito de compra. 
 
-En esta tarea se nos pide que incorporemos el Drag & Drop, que consiste en arrastrar y soltar la imagen del producto al carrito de compra. Esto sumará el valor del producto al total de la compra, que se mostrará en todo momento al usuario.
+En esta tarea se nos pide que incorporemos el **Drag & Drop**, que consiste en arrastrar y soltar la imagen del producto al carrito de compra. Esto sumará el valor del producto al total de la compra, que se mostrará en todo momento al usuario.
 
-La temática que he elegido para este proyecto es una tienda de muebles, con el nombre   "Moblepop".
+La temática que he elegido para este proyecto es una tienda de muebles, con el nombre "Moblepop".
 
 ## Tecnologías 🚀
 
@@ -19,11 +20,11 @@ La temática que he elegido para este proyecto es una tienda de muebles, con el 
 
 ## Uso de la aplicación ⚙️
 
-La tienda tiene una lista de items, en este caso muebles, donde podremos arrastrar la imagen hacia la imagen carrito, que se encuentra en la parte superior.
+La tienda tiene una lista de items, en este caso muebles, donde podremos **arrastrar** la imagen hacia la imagen carrito, que se encuentra en la parte superior.
 
 Cada vez que coloquemos un item en el carrito, nos irá sumando el precio asignado a cada item.
 
-Si queremos vaciar el carrito de compra, simplemente tendremos que hacer click en el botón "Vaciar".
+Si queremos **vaciar** el carrito de compra, simplemente tendremos que hacer click en el botón "Vaciar".
 
 
 ## Cambios a futuro 📝
